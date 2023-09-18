@@ -1,3 +1,9 @@
-h1 {
+.kozep {
     text-align: center;
+    margin: auto;
+}
+
+h1 {
+    letter-spacing: 20px;
+    color: white;
 }
