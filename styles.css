@@ -3,28 +3,53 @@
     margin: auto;
 }
 
-.left{
+.left {
     float: left;
     margin: 15px;
     margin-right: 30px;
     margin-bottom: 100px;
 }
 
-.text{
+.text {
     margin: 15px;
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
-.right{
+.btext {
+    margin: 15px;
+    font-size: 47px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.stext {
+    margin: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.lyric {
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.right {
     float: right;
     margin: 15px;
+    margin-left: 30px;
 }
 
-body{
-    margin-left: 10px;
-    margin-right: 10px;
+.jelentkezes {
+    margin: 15px;
 }
 
 h1 {
