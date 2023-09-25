@@ -56,3 +56,8 @@ h1 {
     letter-spacing: 20px;
     color: white;
 }
+
+h2.header {
+    color: lightgrey;
+    text-decoration: underline;
+}
