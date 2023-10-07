@@ -11,19 +11,17 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row" style="height: 200px; background-image: url('img/header.png');">
+            <div class="row">
                 <div class="col-md-4 kozep">
                     <h1><b>Yeat</b></h1>
                     <h2 class="header"><b>Főoldal</b></h2>
                 </div>
                 <div class="col-md-8 kozep">
                     <nav>
-                        <a href="index.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Főoldal</button></a>
-                        <a href="dalok.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Dalok, dalszövegek</button></a>
-                        <a href="form.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Jelentkezés</button></a>
+                        <a href="index.html"><button class="btn btn-light btn-lg">Főoldal</button></a>
+                        <a href="dalok.html"><button class="btn btn-light btn-lg">Dalok,
+                                dalszövegek</button></a>
+                        <a href="form.html"><button class="btn btn-light btn-lg">Jelentkezés</button></a>
                     </nav>
                 </div>
             </div>
@@ -33,8 +31,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div>
-                    <img src="img/yeat1.jpg" alt="yeat" height="300px" width="500px" class="left border border-dark">
-                    <p class="text">Noah Olivier Smith (született 2000. február 26-án), szakmai nevén Yeat, egy amerikai
+                    <div class="wideimg"><img src="img/yeat1.jpg" alt="yeat" class="border border-dark respimg respbox">
+                    </div>
+                    <p class="stext">Noah Olivier Smith (született 2000. február 26-án), szakmai nevén Yeat, egy
+                        amerikai
                         rapper, énekes,
                         dalszerző és
                         lemezproducer, aki kísérleti hangzásáról ismert. Nem szokványos divatot hordoz, amely dizájner
@@ -45,7 +45,7 @@
             </div>
             <div class="row">
                 <div>
-                    <img src="img/yeat2.jpg" alt="yeat" class="right border border-dark" height="300px" width="500px">
+                    <img src="img/yeat2.jpg" alt="yeat" class="right border border-dark respimg">
                     <p class="stext">Yeat 2015-ben kezdte pályafutását, eredetileg Lil Yeat néven, de ezeket a
                         kiadványokat azóta
                         törölték az internetről.
@@ -64,7 +64,7 @@
         <br>
         <h2 style="text-align: center;" class="btext">Híres albumjai</h2>
         <br>
-        <div class="container-fluid">
+        <div style="overflow-x:auto" class="container-fluid">
             <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
@@ -79,7 +79,7 @@
                 <tbody>
                     <tr>
                         <th scope="row"><img src="img/album/afterlyfe.jpg" alt="YeatAfterlyfeCover" width="250"
-                                height="250">
+                                height="250" class="kozep">
                         </th>
                         <td>AftërLyfe</td>
                         <td>

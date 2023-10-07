@@ -11,19 +11,16 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row" style="height: 200px; background-image: url('img/header.png');">
+            <div class="row">
                 <div class="col-md-4 kozep">
                     <h1><b>Yeat</b></h1>
                     <h2 class="header"><b>Jelentkezés</b></h2>
                 </div>
                 <div class="col-md-8 kozep">
                     <nav>
-                        <a href="index.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Főoldal</button></a>
-                        <a href="dalok.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Dalok, dalszövegek</button></a>
-                        <a href="form.html"><button class="btn btn-light btn-lg"
-                                style="background-color:transparent; color: white;">Jelentkezés</button></a>
+                        <a href="index.html"><button class="btn btn-light btn-lg">Főoldal</button></a>
+                        <a href="dalok.html"><button class="btn btn-light btn-lg">Dalok, dalszövegek</button></a>
+                        <a href="form.html"><button class="btn btn-light btn-lg">Jelentkezés</button></a>
                     </nav>
                 </div>
             </div>
@@ -32,11 +29,20 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
-                    <form class="jelentkezes">
+                <div class="kozep">
+                    <form class="jelentkezes kozep">
                         <div class="form-group">
-                            <label for="nev">Név</label>
-                            <input type="text" class="form-control" id="nev">
+                            <div class="formrow">
+                                <div class="col-md-6">
+                                    <label for="nev">Vezetéknév</label>
+                                    <input type="text" class="form-control" id="nev">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="nev">Keresztnév</label>
+                                    <input type="text" class="form-control" id="nev">
+                                </div>
+                            </div>
+
                         </div>
                         <div class="form-group">
                             <label for="kor">Kor</label>
@@ -49,9 +55,9 @@
                         <div class="form-group">
                             <label for="level">Email-cím</label>
                             <input type="email" class="form-control" id="level" aria-describedby="emailHelp"
-                                placeholder="nev@gmail.com">
+                                placeholder="nev@email.com">
                             </input>
-                            <small id="emailHelp" class="form-text text-muted">Nincsen eladva az email-je a darkweben
+                            <small id="emailHelp" class="form-text text-muted">Az emailed nem értékesítjük a darkweben
                                 :)</small>
                         </div>
                         <div class="form-check">
@@ -62,7 +68,7 @@
                         </div>
                         <br>
                         <button type="submit" class="btn btn-primary">Küldés</button>
-                        <button type="reset" class="btn btn-danger">Adatok törlése</button>
+                        <button type="reset" class="btn btn-danger">Mégse</button>
                     </form>
                 </div>
             </div>

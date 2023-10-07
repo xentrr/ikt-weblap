@@ -1,6 +1,33 @@
+nav button.btn-light {
+    background-color: #000;
+    color: white;
+    opacity: 0.7;
+}
+
+header div.row {
+    height: 21%;
+    background-image: url(img/header.png);
+    background-size: contain;
+    background-position-y: center;
+    background-repeat-y: no-repeat;
+    background-color: #101010;
+}
+
 .kozep {
     text-align: center;
     margin: auto;
+}
+
+form label {
+    float: left;
+}
+
+form label.form-check-label {
+    float: none;
+}
+
+form input.form-check-input {
+    float: none;
 }
 
 .left {
@@ -28,15 +55,15 @@
 
 .stext {
     margin: 15px;
-    font-size: 30px;
+    font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
-    text-align: justify;
+
 }
 
 .lyric {
     margin: 15px;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
     text-align: center;
@@ -60,4 +87,186 @@ h1 {
 h2.header {
     color: lightgrey;
     text-decoration: underline;
+}
+
+img.respimg {
+    height: auto;
+    width: 28vw;
+}
+
+.wideimg {
+    width: 28vw;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+img.respbox {
+    height: auto;
+    width: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container>div {
+    width: 30vw;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.featimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.formrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header div.row {
+        height: 21%;
+        background-image: url(img/header.png);
+        background-size: contain;
+        background-position-y: center;
+        background-repeat-y: no-repeat;
+        background-color: #101010;
+    }
+
+    img.respimg {
+        height: auto;
+        width: 28vw;
+    }
+
+    .wideimg {
+        width: 30vw;
+        height: 15vh;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.respbox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .stext {
+        margin: 15px;
+        font-size: 1.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 50px;
+    }
+
+    .flex-container>div {
+        width: 45vw;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .flex-container h2 {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    header div.row {
+        height: 21%;
+        background-image: url(img/header.png);
+        background-size: contain;
+        background-position-y: center;
+        background-repeat-y: no-repeat;
+        background-color: #101010;
+    }
+
+    h2.header {
+        color: lightgrey;
+        text-decoration: underline;
+        background-color: #000000ba;
+    }
+
+    button.btn-lg {
+        font-size: 0.9rem;
+    }
+
+    img.right.respimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 50%;
+        float: none;
+    }
+
+    .wideimg {
+        display: block;
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 10px 0;
+
+    }
+
+    img.respbox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .stext {
+        margin: 15px;
+        font-size: 1.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 50px;
+    }
+
+    .flex-container>div {
+        width: 82vw;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .flex-container h2 {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
 }
