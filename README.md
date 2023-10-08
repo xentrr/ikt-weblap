@@ -1,6 +1,7 @@
 # ikt-weblap
 
 changelogs:
+
   index.html:
     header div.row, css-be megoldott header, hatterkep es gombok reszponzivitasa
     nav button.btn-light, lathatosag miatt megformazva
