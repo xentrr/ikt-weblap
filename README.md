@@ -24,4 +24,4 @@ changelogs:
   styles.css:
     felsokben elmondott classok es egyebek |
     media query-k kepmeretekhez |
-    table reszponzivitas megoldasa (armin apja segitsegevel es bongeszessel)
+    table reszponzivitas megoldasa (bongeszessel)
